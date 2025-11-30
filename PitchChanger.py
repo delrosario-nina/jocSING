@@ -54,9 +54,9 @@ def change_pitch(input_file, output_file, semitones):
 
 if __name__ == "__main__":
     # Change these parameters
-    input_mp3 = "input_song.mp3"  # Your input MP3 file
-    output_mp3 = "output_song.mp3"  # Output file name
-    pitch_shift = 2  # Shift up by 2 semitones (change as needed)
+    input_mp3 = "Buko_backtrack.mp3"  # Your input MP3 file
+    output_mp3 = "0110.mp3"  # Output file name
+    pitch_shift = -2  # Shift down by 2 semitones (change as needed)
     
     # Check if input file exists
     if not os.path.exists(input_mp3):
